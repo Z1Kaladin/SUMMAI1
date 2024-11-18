@@ -1,0 +1,44 @@
+.toBox {
+    margin-bottom: 20px;
+}
+
+.keyword {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .keywordTitle {
+        font-weight: bold;
+        padding: 10px;
+
+        .keywordName {}
+    }
+
+    .keywordInfo {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 15xp;
+        font-size: 16px;    
+        font-weight: 500;
+
+        .resume {
+            padding: 10px;
+        }
+
+        .tone {
+            padding: 10px;
+            margin-top: auto;
+        }
+
+        .numMention {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            padding: 10px;
+        }
+    }
+
+
+}
