@@ -12,6 +12,7 @@ import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import Login from "./pages/login/Login";
 import "./styles/global.scss"
+import Keyword from "./pages/Keyword/Keyword";
 
 function App() {
   const Layout = () => {
@@ -46,6 +47,10 @@ function App() {
         {
           path: "/settings",
           element: <Settings />
+        },
+        {
+          path: "/keyword/:id",
+          element: <Keyword/>
         },
       ]
     },
