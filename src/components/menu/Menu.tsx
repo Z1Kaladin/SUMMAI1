@@ -10,17 +10,20 @@ const Menu = () => {
           <img src="/home.svg" alt="" />
           <span className="listItemTitle">Homepage</span>
         </Link>
-        <Link to="user/" className="listItem">
-          <img src="/profile.svg" alt="" />
-          <span className="listItemTitle">Profile</span>
-        </Link>
-        <Link to="settings/" className="listItem">
+
+      
+      
+      <div className="title">Settings
+      <Link to="settings/" className="listItem">
           <img src="/settings.svg" alt="" />
-          <span className="listItemTitle">Settings</span>
+          <span className="listItemTitle">Keyword Settings</span>
         </Link>
-      </div>
-      <div className="item">Settings
+        <Link to="user/" className="listItem">
+          <img src="/user.svg" alt="" />
+          <span className="listItemTitle">Users</span>
+        </Link>
         <span></span>
+      </div>
       </div>
     </div>
   )
