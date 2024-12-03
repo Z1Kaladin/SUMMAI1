@@ -4,6 +4,7 @@ import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Tooltip } from 'recha
 import { ChartData } from "../../data";
 
 
+
 const ChartBox = () => {
     return (
         <div className='chartBox'>
